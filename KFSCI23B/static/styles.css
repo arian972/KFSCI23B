@@ -1,0 +1,662 @@
+hr {
+    height: 7px;
+    background-color: #ffffff;
+    opacity: 1;
+    border: none;
+}
+
+.hr1 {
+    margin-bottom: 20px
+}
+
+.hr2 {
+    margin-top: 20px
+}
+
+.header1 {
+     font-size: 90px;
+     font-weight: bold;
+     color: #ffffff;
+     font-family: 'Bodoni', serif;
+}
+
+.header2 {
+    font-size: 35px;
+    color: #ffffff;
+    font-family: 'Bodoni', serif;
+}
+
+.header3 {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Bodoni', serif;
+}
+
+.header4 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Bodoni', serif;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.header5 {
+    font-size: 50px;
+    color: #1f2420;
+    font-family: 'Bodoni', serif;
+    font-weight: bold;
+}
+
+.header6 {
+    font-size: 65px;
+    color: #c97b16;
+    font-family: 'Bodoni', serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.header7 {
+    font-size: 75px;
+    color: #ffffff;
+    font-family: 'Bodoni', serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.header8 {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Bodoni', serif;
+    text-align: center;
+}
+
+.header9 {
+    font-size: 50px;
+    color: #000000;
+    font-family: 'Bodoni', serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text1 {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left;
+    font-family: Gill Sans, sans-serif;
+    padding: 0px 50px;
+    line-height: 1.5;
+}
+
+.text2 {
+    font-size: 35px;
+    color: #58635a;
+    font-family: Gill Sans, sans-serif;
+}
+
+.text3 {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: Gill Sans, sans-serif;
+}
+
+.text4 {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: Gill Sans, sans-serif;
+    text-align: center;
+}
+
+
+
+
+.frame1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 60px;
+    border-radius: 80px;
+    text-align: center;
+}
+
+.frame2{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 100px 35px;
+    border-radius: 80px;
+}
+
+.frame3{
+    background-color: #f7f7f7;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.frame4{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 60px;
+    border-radius: 80px;
+    margin: 0% 5%;
+    border: 2px solid white;
+}
+
+.frame5{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 50px;
+    border-radius: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    text-align: center;
+    display: inline-block; /* This prevents the section from taking up the full row */
+}
+
+.frame6{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px 60px;
+    border-radius: 80px;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0);
+}
+
+.frame7{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px 60px;
+    border-radius: 80px;
+    transition: background-color 0.5s ease;
+}
+
+.frame7:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.frame8{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px 60px;
+    border-radius: 80px;
+    text-align: center;
+    margin-bottom: 2%;
+    transition: background-color 0.5s ease;
+}
+
+.frame8:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.frame9{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 80px 120px;
+    border-radius: 80px;
+}
+
+.frame10{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 80px 120px;
+    border-radius: 80px;
+}
+
+.frame11{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 80px 120px;
+    border-radius: 80px;
+}
+
+.division1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 10%;
+}
+
+.division2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 5%;
+}
+
+.division3 {
+    margin: 3% 2%;
+}
+
+.division4 {
+    margin: 5% 5%;
+}
+
+.division5 {
+    padding: 6% 5%;
+}
+
+.division6 {
+    padding: 6% 15%;
+}
+
+.division7 {
+    padding: 6% 10%;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+
+.background1 {
+    width: 100%;
+    position: relative;
+}
+
+.background2 {
+    background-color: #0b4a9b;
+}
+
+.background3 {
+    background-image: url('images/classPicture_Dog.jpg');
+    background-size: cover;
+    background-position: center top;
+}
+
+.background4 {
+    background-color: #e6a653;
+    height: 100%;
+}
+
+.background5 {
+    background-color: #e6a653;
+}
+
+.background6 {
+    background-color: #2f3b37;
+}
+
+
+.background7 {
+    background-color: #8c918d;
+}
+
+.background8 {
+    background-color: #ffffff;
+}
+
+.background9 {
+    background-color: #32a852;
+}
+
+.image1 {
+    width: 35%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10%;
+}
+
+
+.image2 {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0);
+    flex: 1;
+}
+
+.image3 {
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 60px rgba(0, 0, 0);
+}
+
+
+.navbar {
+    padding: 0;
+    height: 9%;
+    background-color: #b1ff9c;
+}
+
+nav .navbar-header {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #1f5410;
+    color: #b1ff9c;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0.2% 0.8%;
+    border-radius: 25px;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+nav .navbar-header:hover {
+    color: #ffffff;
+}
+
+nav .navbar-item {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #1f5410;
+    color: #b1ff9c;
+    font-size: 25px;
+    padding: 0.13% 0.4%;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0px 2px;
+    transition: color 0.3s ease;
+}
+
+nav .navbar-item:hover {
+    color: #ffffff;
+}
+
+.custom-padding {
+    padding: 0% 10%;
+}
+
+.card1 {
+    padding: 10px;
+    width: 400px;
+    height: 550px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.border1 {
+    border-width: 12px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 5px;
+    margin: 5% 5%;
+}
+
+
+.border2 {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 20px;
+    margin: 5% 0%;
+}
+
+
+.carousel {
+    width: 50%;
+    margin: 40px 0px;
+    margin-left: 30px;
+    border: 8px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.margin-center {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.container1 {
+    width: 35%;
+}
+
+.container2 {
+    width: 25%;
+    height: 100%;
+}
+
+.container3 {
+    width: 100%;
+}
+
+.no-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    height: 100%; /* Make the image take the full height of the item */
+    width: 100%; /* Make the image take the full width */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.news-image {
+    width: 40%;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+.news-title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Bodoni', serif;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.news-date {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Bodoni', serif;
+    font-style: italic;
+    margin-left: 5%;
+}
+
+.menu-image {
+    width: 95%;
+    margin: 0 auto;
+    display: block; /* This makes the image a block-level element */
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
+.menu-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Bodoni', serif;
+    text-decoration: underline;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-hr {
+    height: 3px;
+    background-color: #ffffff;
+    opacity: 1;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.article-image {
+    width: 500px;
+    margin: 5% 5%;
+    padding: 8px;
+    border-radius: 20px;
+    display: block; /* This makes the image a block-level element */
+    object-fit: cover;
+}
+
+.article-title {
+    font-size: 55px;
+    color: #ffffff;
+    font-family: 'Bodoni', serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 0px;
+
+}
+
+.article-text {
+    font-size: 33px;
+    color: #ffffff;
+    font-family: 'Marriweather', serif;
+}
+
+.article-hr {
+    height: 6px;
+    background-color: #ffffff;
+    opacity: 1;
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 3%;
+}
+
+.article-date {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Bodoni', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    margin: 0px;
+    margin-right: 5%;
+}
+
+.article-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-content {
+    display: flex;
+
+}
+
+.width-300 {
+    width: 300%;
+}
+
+.footer-background {
+    background-color: #2c2c30;
+}
+
+.footer-division {
+    padding: 1% 5%;
+}
+
+.footer-image {
+    width: 40%;
+    border-radius: 15px;
+}
+
+.footer-contact {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.footer-copyright {
+    font-size: 18px;
+    color: #cccccc;
+    margin: 0;
+}
+
+.margin-bottom10 {
+    margin-bottom: 10px
+}
+
+.docs-title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Bodoni', serif;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.docs-name {
+    font-size: 30px;
+    color: #3b3b3b;
+    font-family: 'Bodoni', serif;
+    text-decoration: none;
+}
+
+.docs-image {
+    width: 40%;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+.docs-header {
+    font-size: 70px;
+    color: #000000;
+    font-family: 'Bodoni', serif;
+    font-weight: bold;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.password-form-control {
+    font-size: 35px; /* Increase font size */
+    padding: 10px 50px; /* Add padding for bigger input */
+}
+
+.password-btn {
+    font-size: 28px; /* Increase button font size */
+    padding: 10px 35px; /* Add padding for bigger button */
+}
+
+.mb-10 {
+    margin-bottom: 10%;
+}
+
+.center-items {
+    align-items: center;
+}
+
+.m-0-auto {
+    margin: 0 auto;
+}
+
+.flash-frame {
+    padding: 25px;
+    color: #004085;
+    background-color: #cce5ff;
+}
+
+.flash-division {
+    padding-top: 6%;
+}
+
+.flash-text {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.skapa-konto-text {
+    font-size: 25px;
+}
+
+.far-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-button {
+    border: none;
+    background-color: #32a852;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 28px;
+    padding: 1% 1%;
+    border-radius: 60px;
+    font-family: 'Bodoni', serif;
+    text-align: center;
+    font-weight: bold;
+    transition: color 0.5s ease;
+
+}
+
+.login-button:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.ml-10 {
+    margin-left: 10px;
+}

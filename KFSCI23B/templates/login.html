@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}: Inloggning{% endblock %}
+
+{% block main %}
+<body class="background9" >
+    <div class="division6 center-text">
+        <div class="frame10">
+            <section class="far-right mb-5">
+                <a class="login-button no-link" href="/register">Registrera</a>
+                <a class="login-button ml-10 no-link" href="/login">Logga in</a>
+            </section>
+            <p class="header9 mb-5" style="color: white">För att få tillgång till chaten, vänligen logga in.</p>
+
+            <form action="/login" method="post">
+                <div class="mb-4">
+                    <input autocomplete="off" autofocus class="form-control mx-auto w-auto password-form-control" name="username" placeholder="Användarnamn" type="text">
+                </div>
+                <div class="mb-4">
+                    <input autocomplete="off" autofocus class="form-control mx-auto w-auto password-form-control" name="password" placeholder="Lösenord" type="password">
+                </div>
+                <button class="btn btn-primary mb-5 password-btn" type="submit">Logga in</button>
+            </form>
+            <p class="skapa-konto-text">Har du inget konto? <a href="/register">Skapa konto</a></p>
+        </div>
+    </div>
+
+
+
+</body>
+
+{% endblock %}
+
