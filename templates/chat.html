@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block title %}: Chat{% endblock %}
+
+{% block main %}
+
+<body class="background9" style="text-align: center; font-family: Arial, serif; font-size: 14pt">
+    <div class="division7">
+        <section class="far-right">
+            <a class="login-button no-link" href="/logout">Logga ut</a>
+        </section>
+        <div class="frame11">
+            <div id="messages" style="margin: 0 auto; width: 60%; text-align: left; min-height: 300px">
+                {% for message in messages %}
+                    <p>{{ message["username"] }}: {{ message["message"] }}</p>
+                {% endfor %}
+            </div>
+
+            <input type="text" id="message" placeholder="message">
+            <button id="sendBtn">Send</button>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var socket = io.connect("https://laughing-tribble-wr956ggwp75r37qx-5000.app.github.dev");
+            var name = "{{ name }}";
+
+            socket.on('connect', function() {
+                socket.send("User connected!");
+            });
+
+            socket.on('message', function(data) {
+                $('#messages').append($('<p>').text(data));
+            });
+
+            $('#sendBtn').on('click', function () {
+                var message = $('#message').val();
+
+                // Send the message to the server to store it in the database
+                $.ajax({
+                    type: "POST",
+                    url: "/send_message",
+                    contentType: "application/json",
+                    data: JSON.stringify({name: name, message: message}),
+                    success: function(response) {
+                        console.log(response.status);
+                        socket.send(name + ': ' + message);
+                        $("#message").val('');  // Clear input after sending
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+{% endblock %}
+
